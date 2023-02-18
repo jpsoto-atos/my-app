@@ -20,14 +20,4 @@ spec:
         image: netdata/netdata
         ports:
         - containerPort: 19999
-        volumeMounts:
-        - name: netdata-etc
-          mountPath: /etc/netdata
-        - name: netdata-lib
-          mountPath: /var/lib/netdata
-      volumes:
-      - name: netdata-etc
-        configMap:
-          name: netdata-config
-      - name: netdata-lib
-        emptyDir: {}
+
