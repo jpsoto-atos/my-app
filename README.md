@@ -39,8 +39,8 @@ _**Microk8s**: Kubernetes_.
 #
 ### Apps ▶️ 
 
-*
-*
+* [netdata](https://github.com/parrot26/my-app/tree/main/netdata/manifests)
+* [dashboard](https://github.com/parrot26/my-app/tree/main/dashboard/manifests)
 *
 
 
